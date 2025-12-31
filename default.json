@@ -11,9 +11,9 @@
 		"group:test",
 		"group:vite",
 		"helpers:pinGitHubActionDigestsToSemver",
-    "mergeConfidence:all-badges",
+		"mergeConfidence:all-badges",
 		"workarounds:all",
-    "security:openssf-scorecard"
+		"security:openssf-scorecard"
 	],
 
 	"rangeStrategy": "bump",
@@ -42,6 +42,12 @@
 			"groupName": "changesets",
 			"matchDatasources": ["npm"],
 			"matchPackageNames": ["@changesets/**"]
+		},
+
+		{
+			"groupName": "expressive-code",
+			"matchDatasources": ["npm"],
+			"matchSourceUrls": ["https://github.com/expressive-code/expressive-code"]
 		}
 	]
 }
