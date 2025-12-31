@@ -48,6 +48,22 @@
 			"groupName": "expressive-code",
 			"matchDatasources": ["npm"],
 			"matchSourceUrls": ["https://github.com/expressive-code/expressive-code"]
+		},
+
+		{
+			"groupName": "Unified",
+			"description": "Groups updates for packages from the unified ecosystem (https://unifiedjs.com/)",
+			"matchDatasources": ["npm"],
+			"matchSourceUrls": [
+				"https://github.com/mdx-js/**",
+				"https://github.com/micromark/**",
+				"https://github.com/rehypejs/**",
+				"https://github.com/remarkjs/**",
+				"https://github.com/retextjs/**",
+				"https://github.com/syntax-tree/**",
+				"https://github.com/unifiedjs/**",
+				"https://github.com/vfile/**"
+			]
 		}
 	]
 }
