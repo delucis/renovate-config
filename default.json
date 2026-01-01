@@ -64,6 +64,14 @@
 				"https://github.com/unifiedjs/**",
 				"https://github.com/vfile/**"
 			]
+		},
+
+		{
+			"description": "Don’t update Node.js engines field (needed because of the use of rangeStrategy: 'bump' above)",
+			"matchPackageNames": ["node"],
+			"matchManagers": ["npm"],
+			"matchDepTypes": ["engines"],
+			"enabled": false
 		}
 	]
 }
