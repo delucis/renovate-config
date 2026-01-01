@@ -72,6 +72,12 @@
 			"matchManagers": ["npm"],
 			"matchDepTypes": ["engines"],
 			"enabled": false
+		},
+
+		{
+			"groupName": "astro-embed",
+			"matchDatasources": ["npm"],
+			"matchSourceUrls": ["https://github.com/delucis/astro-embed"]
 		}
 	]
 }
