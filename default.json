@@ -69,7 +69,7 @@
 			"groupName": "Unified",
 			"description": "Adds relevant @types/* packages to the Unified group",
 			"matchDatasources": ["npm"],
-			"matchPackagePatterns": ["@types/unist", "@types/hast", "@types/mdast", "@types/mdx"]
+			"matchPackageNames": ["@types/unist", "@types/hast", "@types/mdast", "@types/mdx"]
 		},
 
 		{
