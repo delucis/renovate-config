@@ -65,6 +65,12 @@
 				"https://github.com/vfile/**"
 			]
 		},
+		{
+			"groupName": "Unified",
+			"description": "Adds relevant @types/* packages to the Unified group",
+			"matchDatasources": ["npm"],
+			"matchPackagePatterns": ["@types/unist", "@types/hast", "@types/mdast", "@types/mdx"]
+		},
 
 		{
 			"description": "Don’t update Node.js engines field (needed because of the use of rangeStrategy: 'bump' above)",
