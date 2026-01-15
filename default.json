@@ -12,8 +12,7 @@
 		"group:vite",
 		"helpers:pinGitHubActionDigestsToSemver",
 		"mergeConfidence:all-badges",
-		"workarounds:all",
-		"security:openssf-scorecard"
+		"workarounds:all"
 	],
 
 	"rangeStrategy": "bump",
