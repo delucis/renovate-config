@@ -34,15 +34,22 @@
 		{
 			"groupName": "astro",
 			"matchDatasources": ["npm"],
-			"matchPackageNames": ["astro", "@astrojs/**", "prettier-plugin-astro"],
-			"matchJsonata": ["isBreaking != true"]
+			"matchPackageNames": ["astro", "@astrojs/**", "prettier-plugin-astro"]
 		},
 
 		{
 			"groupName": "astro (breaking)",
 			"matchDatasources": ["npm"],
 			"matchPackageNames": ["astro", "@astrojs/**", "prettier-plugin-astro"],
-			"matchJsonata": ["isBreaking == true"]
+			"matchUpdateTypes": ["minor"],
+			"matchCurrentVersion": "<1"
+		},
+		{
+			"groupName": "astro (breaking)",
+			"matchDatasources": ["npm"],
+			"matchPackageNames": ["astro", "@astrojs/**", "prettier-plugin-astro"],
+			"matchUpdateTypes": ["major"],
+			"matchCurrentVersion": ">=1"
 		},
 
 		{
