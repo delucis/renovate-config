@@ -39,6 +39,7 @@
 
 		{
 			"groupName": "astro (breaking)",
+			"groupSlug": "major-astro",
 			"matchDatasources": ["npm"],
 			"matchPackageNames": ["astro", "@astrojs/**", "prettier-plugin-astro"],
 			"matchUpdateTypes": ["minor"],
@@ -46,6 +47,7 @@
 		},
 		{
 			"groupName": "astro (breaking)",
+			"groupSlug": "major-astro",
 			"matchDatasources": ["npm"],
 			"matchPackageNames": ["astro", "@astrojs/**", "prettier-plugin-astro"],
 			"matchUpdateTypes": ["major"],
