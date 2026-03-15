@@ -36,9 +36,8 @@
 			"matchDatasources": ["npm"],
 			"matchPackageNames": ["astro", "@astrojs/**", "prettier-plugin-astro"]
 		},
-
 		{
-			"groupName": "astro (breaking)",
+			"description": "Treat v0.x minors as major (breaking) releases for Astro packages",
 			"groupSlug": "major-astro",
 			"matchDatasources": ["npm"],
 			"matchPackageNames": ["astro", "@astrojs/**", "prettier-plugin-astro"],
