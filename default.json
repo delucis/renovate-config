@@ -91,6 +91,12 @@
 			"groupName": "astro-embed",
 			"matchDatasources": ["npm"],
 			"matchSourceUrls": ["https://github.com/delucis/astro-embed"]
+		},
+
+		{
+			"groupName": "@atcute/*",
+			"matchDatasources": ["npm"],
+			"matchPackageNames": ["@atcute/**"]
 		}
 	]
 }
