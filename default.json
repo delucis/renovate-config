@@ -97,6 +97,12 @@
 			"groupName": "@atcute/*",
 			"matchDatasources": ["npm"],
 			"matchPackageNames": ["@atcute/**"]
+		},
+
+		{
+			"groupName": "Decap CMS",
+			"matchDatasources": ["npm"],
+			"matchSourceUrls": ["https://github.com/decaporg/decap-cms"]
 		}
 	]
 }
