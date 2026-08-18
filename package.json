@@ -8,7 +8,7 @@
 		"test": "renovate-config-validator --strict default.json .github/renovate.json"
 	},
 	"author": "delucis",
-	"packageManager": "pnpm@11.18.0",
+	"packageManager": "pnpm@11.21.0",
 	"devDependencies": {
 		"renovate": "^44.2.2"
 	}
