@@ -10,6 +10,6 @@
 	"author": "delucis",
 	"packageManager": "pnpm@11.28.11",
 	"devDependencies": {
-		"renovate": "^44.235.1"
+		"renovate": "^44.235.2"
 	}
 }
